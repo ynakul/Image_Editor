@@ -1,0 +1,155 @@
+/* app.css */
+
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url('240_F_296692203_k4lOpOt8mAcYpKzicNmJTpnsE9ZdwyHX.jpg'); /* Adjust the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  flex-direction: column;
+  gap: 20px; 
+  
+  
+}
+
+/* Main container */
+.container {
+  background-color: rgba(176, 123, 65, 0.3);
+  /* background-image: url('rainbow-background-6-big.jpg'); Adjust the path to your image */
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-position: center; /* Centers the image */
+  padding: 20px;
+  border: 1px #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 10);
+  max-width: 700px;
+  width: 100%;
+  
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Labels and sliders styling */
+label {
+  display: block;
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* Dark gray for labels */
+}
+input[type="range"] {
+  width: 100%;
+  margin: 5px 0;
+  background-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+/* Upload button styling */
+input[type="file"] {
+  padding: 8px; /* Smaller padding to match the desired button size */
+  font-size: 14px;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensures padding fits within the container */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth hover transition */
+}
+
+input[type="file"]:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+input[type="file"]:active {
+  transform: translateY(0); /* Reset lift on click */
+}
+
+/* Image preview styling */
+img {
+  width: 100%;
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Fixed box for the image preview */
+.image-preview-container {
+  width: 100%;
+  height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  overflow: hidden;
+  background-color: #fafafa; /* Slight off-white background for the image box */
+}
+
+/* Adjustments section styling */
+.adjustments {
+  margin: 20px 0;
+}
+
+/* Download button styling */
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Additional styling for inputs and controls */
+input, select {
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+select {
+  background-color: #e6e6e6;
+  color: #333;
+}
+
+/* Additional text styling for other sections */
+p, span {
+  font-size: 14px;
+  color: #666;
+}
