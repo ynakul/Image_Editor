@@ -7,6 +7,15 @@ This project is a full stack application for image processing. It uses:
 - **Backend:** Python Flask
 - **Frontend:** React, Context API, TypeScript
 
+### Example Video
+
+Here is an example video demonstrating the functionality of the project:
+
+https://github.com/user-attachments/assets/4e87dcc3-86e9-4361-a56e-198501880f01
+
+
+ 
+
 ## Getting Started
 
 Follow these steps to set up and run the project on your local machine.
